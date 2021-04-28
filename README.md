@@ -1,5 +1,5 @@
-# Data Analysis for Churns in a Telecom. Company 
-Data Analysis for Churns in a Telecom. Company
+# Data Analysis for Churns in a Telecom Company 
+Data Analysis for Churns in a Telecom Company
 
 ### First step
 Download the "telecom_users.csv" file in this repo 
