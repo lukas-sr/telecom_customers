@@ -17,5 +17,6 @@ Import prerequisites
 import pandas as pd
 import plotly.express as px
 ```
-### Python Plotly Documentation 
-Full Library Documentation [Here](https://plotly.com/)
+### Documentation 
+Full Plotly Library Documentation [here](https://plotly.com/)
+Original Dataframe from Kaggle [here](https://www.kaggle.com/radmirzosimov/telecom-users-dataset)
