@@ -1,7 +1,9 @@
 # Data Analysis of Churns on the telecomunications company
 import pandas as pd
 import plotly.express as px
+import os
 from IPython.display import display
+
 
 df = pd.read_csv("telecom_users.csv")
 
@@ -22,7 +24,10 @@ print(df.info())
 display(df["Churn"].value_counts(normalize=True).map("{:.1%}".format))
 
 # Visualizing the data
+if not os.path.exists("images"):
+    os.mkdir("images")
+
 for column in df:
     grap = px.histogram(df, x=column, color="Churn")
-    grap.show()
+    grap.write_image("images/test.png")
 
