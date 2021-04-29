@@ -16,6 +16,8 @@ Import prerequisites
 ```python
 import pandas as pd
 import plotly.express as px
+import os
+import IPython.display
 ```
 ### Documentation 
 Full Plotly Library Documentation [here](https://plotly.com/)
