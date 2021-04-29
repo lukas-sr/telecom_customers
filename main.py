@@ -29,5 +29,5 @@ if not os.path.exists("images"):
 
 for column in df:
     grap = px.histogram(df, x=column, color="Churn")
-    grap.write_image("images/test.png")
+    grap.show()
 
