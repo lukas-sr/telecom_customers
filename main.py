@@ -24,9 +24,6 @@ print(df.info())
 display(df["Churn"].value_counts(normalize=True).map("{:.1%}".format))
 
 # Visualizing the data
-if not os.path.exists("images"):
-    os.mkdir("images")
-
 for column in df:
     grap = px.histogram(df, x=column, color="Churn")
     grap.show()
