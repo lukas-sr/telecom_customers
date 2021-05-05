@@ -27,4 +27,3 @@ display(df["Churn"].value_counts(normalize=True).map("{:.1%}".format))
 for column in df:
     grap = px.histogram(df, x=column, color="Churn")
     grap.show()
-
