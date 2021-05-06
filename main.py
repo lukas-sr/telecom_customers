@@ -17,6 +17,7 @@ df["TotalGasto"] = pd.to_numeric(df["TotalGasto"], errors="coerce")
 df = df.dropna(how="all", axis=1)
 df = df.dropna(how="any", axis=0)
 
+# Before Data Processing
 print("\nBefore Data Processing\n")
 print(df.info())
 
