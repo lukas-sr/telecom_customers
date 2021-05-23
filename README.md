@@ -1,11 +1,12 @@
 # Data Analysis for Churns in a Telecom Company 
-Data Analysis for Churns in a Telecom Company
+Data Analysis for Churns
 
 ### First step
-Download the "telecom_users.csv" file in this repo 
+Download the "telecom_users.csv" dataframe file in this repo 
 
 ### Second step
 Install libraries in your computer
+
 ```python
 $ pip3 install -U pandas
 $ pip3 install -U plotly
