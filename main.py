@@ -5,7 +5,7 @@ import os
 from IPython.display import display
 
 # Dataframe from the project
-df = pd.read_csv("telecom_users.csv")
+df = pd.read_csv(f"telecomdata.csv")
 
 # Printing the dataframe with the .info() option from pandas lib
 print("After Data Processing\n")
@@ -19,6 +19,7 @@ df = df.dropna(how="any", axis=0)
 
 # Before Data Processing
 print("\nBefore Data Processing\n")
+# Print Info from Data frame
 print(df.info())
 
 # Checking the percentage of Churns in the Dataframe -> Around 26%
