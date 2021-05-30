@@ -4,7 +4,7 @@ import plotly.express as px
 import os
 from IPython.display import display
 
-
+# Dataframe from the project
 df = pd.read_csv("telecom_users.csv")
 
 # Printing the dataframe with the .info() option from pandas lib
